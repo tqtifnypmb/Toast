@@ -319,6 +319,8 @@ extern const NSString * CSToastPositionBottom;
  */
 @property (assign, nonatomic) NSTimeInterval fadeDuration;
 
+@property (assign, nonatomic) CGSize positionOffset;
+
 /**
  Creates a new instance of `CSToastStyle` with all the default values set.
  */
